@@ -35,7 +35,7 @@
     color: #e5e7eb;
 }
 
-ul{
+#links {
     margin: 0;
     padding: 0;
     display: flex;
@@ -101,7 +101,49 @@ a {
 
 .section2 {
     background-color: white;
+    padding-top: 30px;
+    display: flex;
+    flex-direction: column;
 }
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.random-info {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.square_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 10px;
+}
+
+.square {
+    border: solid 3px #3882F6;
+    height: 125px;
+    width: 125px;
+    border-radius: 10px;
+}
+
+.texts_container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.texts {
+    width: 125px;
+    text-align: center;
+    
+}
+
 
 /*Section 3*/
 
