@@ -14,5 +14,33 @@
 
 /*Section 1*/
 
+.section1 {
+    background-color: #1f2937;
+}
+
+/*Section 2*/
+
+.section2 {
+    background-color: white;
+}
+
+/*Section 3*/
+
+.section3 {
+    background-color: #e5e7eb;
+}
+
+/*Section 4*/
+
+.section4 {
+    background-color: white;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #1f2937;
+}
+
 
 /*SPECIFICS STYLING*/
