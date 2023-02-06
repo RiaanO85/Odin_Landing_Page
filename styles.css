@@ -31,7 +31,7 @@
 
 .header-links {
     display: flex;
-        font-size: 18px;
+    font-size: 18px;
     color: #e5e7eb;
 }
 
@@ -40,7 +40,7 @@ ul{
     padding: 0;
     display: flex;
     list-style-type: none;
-    gap: 15px
+    gap: 30px
 }
 
 a {
@@ -52,6 +52,49 @@ a {
 
 .section1 {
     background-color: #1f2937;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 48px;
+    font-weight: 900;
+    color: white;
+    flex-wrap: wrap;
+    max-width: 350px;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-bottom: 10px;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.signup {
+    background-color: #3882F6;
+    border-color: #3882F6;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+.img_holder {
+    background-color: #6d747d;
+    width: 600px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*Section 2*/
