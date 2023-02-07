@@ -210,6 +210,16 @@ a {
 }
 
 .signup2 {
+    background-color: #3882F6;
+    border: solid white 2px;
+    border-radius: 8px;
+    color: white;
+    font-weight: bold;
+    align-self: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
 
 }
 
