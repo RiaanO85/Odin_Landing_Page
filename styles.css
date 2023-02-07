@@ -137,7 +137,6 @@ a {
     display: flex;
     justify-content: center;
     gap: 30px;
-    padding-bottom: ;
 }
 
 .texts {
@@ -152,6 +151,7 @@ a {
 .section3 {
     background-color: #e5e7eb;
     padding-top: 100px;
+    padding-bottom: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -180,7 +180,39 @@ a {
 
 .section4 {
     background-color: white;
+    display: flex;
+    flex: 1;
+    justify-content: center;
 }
+
+.container4 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-right: 100px;
+    padding-left: 100px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    gap: 100px;
+}
+
+.sub_container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main_text {
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.signup2 {
+
+}
+
 
 /*Footer*/
 
