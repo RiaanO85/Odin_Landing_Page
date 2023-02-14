@@ -80,16 +80,17 @@ a:hover::after {
 
 .section1 {
     background-color: transparent;
-    padding: 100px;
+    padding: 50px 100px 50px 100px;
     display: flex;
     justify-content: space-between;
 }
 
 .container {
     background-color: transparent;
-    padding: 30px 90px 30px 90px;
+    padding: 30px 50px 10px 50px;
     border: solid 5px white;
     border-radius: 30px;
+    width: 70%;
 }
 
 .title {
@@ -97,22 +98,24 @@ a:hover::after {
     font-weight: 900;
     color: white;
     flex-wrap: wrap;
-    max-width: 350px;
+    max-width: 90%;
+    padding-bottom: 20px;
 }
 
 .subtext {
     font-size: 20px;
     color: #e5e7eb;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     flex-wrap: wrap;
-    max-width: 400px;
+    max-width: 100%;
 }
 
 button {
     background-color: transparent;
     border: solid 2px #ffffff;
     border-radius: 8px;
-    padding: 5px 15px 2px 15px;
+    padding-top: 4px;
+    align-self: center;
     color: white;
     cursor: pointer;
     font-weight: bold;
@@ -130,8 +133,6 @@ button:active {
     background-color: #e5e7eb;
 
 }
-
-
 
 .img_holder {
     background-color: transparent;
@@ -175,12 +176,18 @@ button:active {
     padding-top: 40px;
 }
 
+.square {
+    display: flex;
+    justify-content: space-around;
+}
+
 .square > img {
+    display: flex;
+    flex: 1;
     width: 150px;
     height: 150px;
-    border: solid 3px #765cc3;
+    border: solid 5px #765cc3;
     border-radius: 20px;
-
 }
 
 .texts_container {
@@ -202,7 +209,7 @@ button:active {
 
 .section3 {
     background-color: transparent;
-    padding-bottom: 100px;
+    padding: 90px 100px 0px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -218,12 +225,13 @@ button:active {
 #quote {
     font-size: 36px;
     font-family: 'Roboto', sans-serif;
+    color: #ffffff;
 }
 
 .quotee {
     align-self: flex-end;
-    padding-right: 100px;
     font-weight: bolder;
+    color: #e5e7eb;
 }
 
 
