@@ -112,11 +112,26 @@ button {
     background-color: transparent;
     border: solid 2px #ffffff;
     border-radius: 8px;
-    padding: 5px 15px 5px 15px;
+    padding: 5px 15px 2px 15px;
     color: white;
+    cursor: pointer;
     font-weight: bold;
     font-size: 18px;
+    width: 120px;
+    height: 30px;
 }
+
+button:hover {
+    background-color: #ffffff;
+    color: #765cc3;
+}
+
+button:active {
+    background-color: #e5e7eb;
+
+}
+
+
 
 .img_holder {
     background-color: transparent;
