@@ -28,14 +28,12 @@ body {
     padding-top: 10px;
     padding-bottom: 10px;
     align-items: center;
-    border: solid ;
 }
 
 img {
     width: 160px;
     height: auto;
-    padding-top: px;
-    border: solid;
+    padding-top: 20px;
 }
 
 .header-links {
@@ -82,7 +80,7 @@ a:hover::after {
 
 .section1 {
     background-color: transparent;
-    padding: 50px;
+    padding: 100px;
     display: flex;
     justify-content: space-between;
 }
@@ -90,7 +88,7 @@ a:hover::after {
 .container {
     background-color: transparent;
     padding: 30px 90px 30px 90px;
-    border: solid 1px #d45dd6;
+    border: solid 5px white;
     border-radius: 30px;
 }
 
@@ -103,23 +101,21 @@ a:hover::after {
 }
 
 .subtext {
-    font-size: 18px;
+    font-size: 20px;
     color: #e5e7eb;
     padding-bottom: 10px;
     flex-wrap: wrap;
     max-width: 400px;
 }
 
-.signup {
+button {
     background-color: transparent;
-    border-color: #ffffff;
+    border: solid 2px #ffffff;
     border-radius: 8px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding: 5px 15px 5px 15px;
     color: white;
     font-weight: bold;
+    font-size: 18px;
 }
 
 .img_holder {
