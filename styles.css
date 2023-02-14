@@ -160,17 +160,18 @@ button {
     padding-top: 40px;
 }
 
-.square {
+.square > img {
+    width: 150px;
+    height: 150px;
     border: solid 3px #765cc3;
-    height: 125px;
-    width: 125px;
-    border-radius: 10px;
+    border-radius: 20px;
+
 }
 
 .texts_container {
     display: flex;
     justify-content: center;
-    gap: 105px;
+    gap: 130px;
 }
 
 .texts {
