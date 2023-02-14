@@ -68,7 +68,7 @@ a::after {
     left: 0;
     background-color: #ffffff;
     transform-origin: bottom right;
-    transition: transform 0.25s ease-out;
+    transition: transform 0.5s ease-out;
 }
 
 a:hover::after {
@@ -127,33 +127,41 @@ button {
     align-items: center;
 }
 
+.guitar {
+    width: 300px;
+    padding-left: 100px;
+}
+
+
 /*Section 2*/
 
 .section2 {
-    background-color: transparent;
-    padding-top: 30px;
-    padding-bottom: 80px;
+    background-color: white;
+    margin: 30px 100px 30px 100px;
+    padding: 60px 0px 60px 0px;
     display: flex;
     flex-direction: column;
+    border: solid white;
+    border-radius: 29px;
 }
 
 .random-info {
     font-size: 36px;
     font-weight: bolder;
-    color: #ffffff;
+    color: #765cc3;
     align-self: center;
 }
 
 .square_container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 100px;
     padding-bottom: 30px;
     padding-top: 40px;
 }
 
 .square {
-    border: solid 3px #ffffff;
+    border: solid 3px #765cc3;
     height: 125px;
     width: 125px;
     border-radius: 10px;
@@ -162,13 +170,15 @@ button {
 .texts_container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 105px;
 }
 
 .texts {
     width: 125px;
     text-align: center;
-    
+    color: #765cc3;
+    font-weight: 600;
+    font-size: 20px;
 }
 
 
