@@ -156,7 +156,7 @@ button:active {
 
 .section2 {
     background-color: white;
-    margin: 30px 100px 30px 100px;
+    margin: 100px 100px 100px 100px;
     padding: 60px 0px 60px 0px;
     display: flex;
     flex-direction: column;
@@ -212,6 +212,7 @@ button:active {
 
 .section3 {
     background-color: transparent;
+    margin-bottom: 100px;
     padding: 90px 100px 0px 100px;
     display: flex;
     flex-direction: column;
