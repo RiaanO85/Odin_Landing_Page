@@ -136,6 +136,9 @@ button:active {
 
 .img_holder {
     background-color: transparent;
+    background-image: url(./assets/youtube.png);
+    background-position: center;
+    background-repeat: no-repeat;
     width: 600px;
     color: white;
     display: flex;
@@ -186,8 +189,8 @@ button:active {
     flex: 1;
     width: 150px;
     height: 150px;
-    border: solid 5px #765cc3;
     border-radius: 20px;
+    background-color: #765cc3;
 }
 
 .texts_container {
